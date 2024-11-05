@@ -18,8 +18,7 @@ A. Prompt user for:
 
 B. Write/ Append to an existing txt file in the following format
 
-    Date;CardUsed;DollarAmount;Store;Category;ItemDescription;\n
-    Status: Done
+    Date,CardUsed,DollarAmount,Store,Category,ItemDescription\n
 
 C. Write a function that Sorts File Data
 
@@ -28,8 +27,6 @@ D. Read from File and Provide Spending Habit Insight
     2. Most Common Category by Month
     3. Average Monthly Spend
     4. Most Common Store by Month
-    
-
 
 
 
@@ -38,7 +35,6 @@ Phase II:
 A. Account for Error Handling
 B. Create CSV File from Txt files
 C. Add more analysis and trends
-
 
 Phase III:
 
