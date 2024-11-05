@@ -1,0 +1,51 @@
+// Lean Specs:
+
+
+Phase I:
+
+A. Prompt user for:
+    1. Day of purchase (look into potentially integrating a default date if none provided)
+        Implement: Provide suggestion for date format: YYYY-MM-DD
+
+    2. Item Description
+    3. Item Category (create a list of purchases)
+        Implement: Menu Based (Read from a file), leave choice for other (where user inputs new category (written to the file))
+
+    4. Dollar Amount
+    5. Store
+    6. Card Used (ex. BoA Credit)
+        Implement: Menu Based
+
+B. Write/ Append to an existing txt file in the following format
+
+    Date;CardUsed;DollarAmount;Store;Category;ItemDescription;\n
+    Status: Done
+
+C. Write a function that Sorts File Data
+
+D. Read from File and Provide Spending Habit Insight
+    1. Average Daily Spend (past 30 days)
+    2. Most Common Category by Month
+    3. Average Monthly Spend
+    4. Most Common Store by Month
+    
+
+
+
+
+Phase II:
+
+A. Account for Error Handling
+B. Create CSV File from Txt files
+C. Add more analysis and trends
+
+
+Phase III:
+
+A. Integrate program with a Python Script that performs Data Analysis
+B. Create a Monthly Report and Print to PDF
+
+Phase IV:
+
+A. Implement a GUI
+
