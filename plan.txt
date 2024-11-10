@@ -3,23 +3,6 @@
 
 Phase I:
 
-A. Prompt user for:
-    1. Day of purchase (look into potentially integrating a default date if none provided)
-        Implement: Provide suggestion for date format: YYYY-MM-DD
-
-    2. Item Description
-    3. Item Category (create a list of purchases)
-        Implement: Menu Based (Read from a file), leave choice for other (where user inputs new category (written to the file))
-
-    4. Dollar Amount
-    5. Store
-    6. Card Used (ex. BoA Credit)
-        Implement: Menu Based
-
-B. Write/ Append to an existing txt file in the following format
-
-    Date,CardUsed,DollarAmount,Store,Category,ItemDescription\n
-
 C. Write a function that Sorts File Data
 
 D. Read from File and Provide Spending Habit Insight

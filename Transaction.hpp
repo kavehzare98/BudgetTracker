@@ -1,10 +1,10 @@
-#ifndef TRANSACTION_H
-#define TRANSACTION_H
+#pragma once
 
 #include <iostream>
 #include <string>
 #include <iomanip>
-using namespace std;
+#include <vector>
+using std::cout, std::cin, std::endl, std::string, std::setprecision, std::fixed, std::vector, std::ios, std::fstream;
 
 class Transaction {
 private:
@@ -36,5 +36,3 @@ public:
     static int getNumTransact();
     void printInfo();
 };
-
-#endif
